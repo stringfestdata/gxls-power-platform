@@ -1,0 +1,4 @@
+If(
+    DateValue1.SelectedDate < Today(),
+    Notify("You cannot choose a date less than today", NotificationType.Error)
+)
